@@ -6,7 +6,8 @@ import Card from './Card';
 import CardList from './CardList'
 import * as serviceWorker from './serviceWorker';
 import { robots } from './Robots'
+import App from './App'
 
-ReactDOM.render(<CardList robots={robots}/>, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
 
 serviceWorker.unregister();

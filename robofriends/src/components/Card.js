@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ name, email, id }) => {	
+const Card = ({ name, email, username ,id }) => {	
 	return (
 		<div className='bg-light-green dib br3 pa3 ma2 grow shadow-5'>
 
@@ -10,6 +10,7 @@ const Card = ({ name, email, id }) => {
 
 		<h2>{name}</h2>
 		<p>{email}</p>
+		<p>{username}</p>
 
 		</div>	
 		</div>
